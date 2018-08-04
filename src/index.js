@@ -9,6 +9,8 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import reducer from './store/reducer'
 
+
+//some change to check remote repo
 const store = createStore(reducer)
 
 const app = (
