@@ -18,6 +18,11 @@ const INGREDIENT_PRICES = {
 
 const reducer = (state = initialState, action) =>{
    switch(action.type){
+       case actionTypes.PURCHASE_BURGER_START: 
+       return {
+           ...state,
+           loading: true
+       }
        case actionTypes.ADD_INGREDIENT:
         return{
             ...state,
