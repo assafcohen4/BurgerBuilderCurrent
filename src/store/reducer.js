@@ -1,3 +1,6 @@
+
+//DELETE THIS FILE? KEPT IN CASE I MADE SOME STUPID ERROR ALONG THE WAY AND NEED IT FOR SOME REASON
+
 /*import * as actionTypes from './actions/actionTypes'
 
 const initialState ={
